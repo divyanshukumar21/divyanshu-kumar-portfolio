@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Divyanshu Kumar showcasing HTML5, CSS3, accessibility and web development skills.">
+    <meta name="author" content="Divyanshu Kumar">
+    <meta name="robots" content="index, follow">
+    <title>Divyanshu Kumar | Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+    <div class="container navbar">
+        <a class="logo" href="index.html" aria-label="Divyanshu Kumar portfolio home">Divyanshu Kumar</a>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html" aria-current="page">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="container">
+            <p class="eyebrow">Personal Portfolio</p>
+            <h1 id="hero-title">Hi, I'm Divyanshu Kumar</h1>
+            <p class="hero-text">
+                I am an aspiring web developer learning how to create modern,
+                semantic, responsive and accessible websites using HTML5 and CSS3.
+            </p>
+            <div class="button-row">
+                <a class="btn" href="projects.html">View My Projects</a>
+                <a class="btn btn-secondary" href="contact.html">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" aria-labelledby="features-title">
+        <div class="container">
+            <div class="section-heading">
+                <h2 id="features-title">Key Features</h2>
+                <p>This project follows the requirements for semantic HTML5 and accessibility.</p>
+            </div>
+            <ul class="feature-list">
+                <li>
+                    Use semantic HTML5 elements such as
+                    <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>,
+                    <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>,
+                    <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code>.
+                </li>
+                <li>Implement meaningful ARIA labels to provide useful navigation information for screen readers.</li>
+                <li>Create optimized, SEO-friendly page titles and meta descriptions.</li>
+                <li>Include a fully accessible and keyboard-navigable contact form with proper labels.</li>
+                <li>Provide visible keyboard focus indicators and a skip-to-content link.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="skills-title">
+        <div class="container">
+            <div class="section-heading">
+                <h2 id="skills-title">My Skills</h2>
+                <p>Technologies and practices used in this portfolio project.</p>
+            </div>
+            <div class="grid">
+                <article class="card">
+                    <h3>Semantic HTML5</h3>
+                    <p>Clear page structure using meaningful elements instead of unnecessary generic containers.</p>
+                </article>
+                <article class="card">
+                    <h3>Modern CSS3</h3>
+                    <p>Responsive layouts using Grid, Flexbox, media queries and reusable CSS styles.</p>
+                </article>
+                <article class="card">
+                    <h3>Web Accessibility</h3>
+                    <p>Keyboard support, visible focus states, descriptive labels and screen-reader-friendly navigation.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" aria-labelledby="outcome-title">
+        <div class="container">
+            <div class="outcome">
+                <h2 id="outcome-title">Expected Outcome</h2>
+                <p>
+                    A fully accessible, semantic and responsive multi-page portfolio website
+                    built according to modern HTML5 standards and accessibility best practices.
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container">
+        <p>© 2026 Divyanshu Kumar. Personal Portfolio Project.</p>
+    </div>
+</footer>
+</body>
+</html>

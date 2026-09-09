@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Divyanshu Kumar using this accessible portfolio contact form.">
+    <meta name="author" content="Divyanshu Kumar">
+    <meta name="robots" content="index, follow">
+    <title>Contact | Divyanshu Kumar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+    <div class="container navbar">
+        <a class="logo" href="index.html" aria-label="Divyanshu Kumar portfolio home">Divyanshu Kumar</a>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="main-content">
+    <section class="page-hero" aria-labelledby="contact-title">
+        <div class="container">
+            <h1 id="contact-title">Contact Me</h1>
+            <p>Send me a message using the accessible contact form below.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container form-wrap">
+            <form id="contact-form" aria-describedby="form-status">
+                <div class="form-group">
+                    <label for="name">Full Name <span class="required" aria-hidden="true">*</span></label>
+                    <input type="text" id="name" name="name" autocomplete="name" required aria-required="true">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address <span class="required" aria-hidden="true">*</span></label>
+                    <input type="email" id="email" name="email" autocomplete="email" required aria-required="true">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message <span class="required" aria-hidden="true">*</span></label>
+                    <textarea id="message" name="message" rows="7" required aria-required="true"></textarea>
+                    <span class="form-help">Please enter the details of your message.</span>
+                </div>
+
+                <button class="btn" type="submit">Send Message</button>
+                <p id="form-status" class="form-status" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container">
+        <p>© 2026 Divyanshu Kumar. Personal Portfolio Project.</p>
+    </div>
+</footer>
+</body>
+</html>
